@@ -27,7 +27,7 @@ function setup() {
    if(i % 2 === 0) {
 
    //adding road
-   var road = createSprite(683,height-50-(i*400)-grassHeight,width,300);
+   var road = createSprite(683,height-150-(i*400)-grassHeight,width,300);
    road.shapeColor = "black";
    }
    bottomGrass1.shapeColor = "green";
@@ -68,7 +68,6 @@ for(i = 1; i < logGroup1.length; i++){
     carGroup1[i].x = 0;
 }
 }
-
 
 // displaying sprites
 drawSprites();
